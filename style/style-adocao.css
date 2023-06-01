@@ -134,6 +134,7 @@ h2{
     font-size: 25px;
     font-family: outfitregular;
     width: 310px;
+    display:none;
   }
   
   .input-login:focus {
