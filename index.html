@@ -4,209 +4,137 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style/style.css" rel="stylesheet" />
     <link href="./style/fonts.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">    <title>PetsLand - Home</title>
+    <link href="./style2.css" rel="stylesheet" />
+    <link href="./style3.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>PetsLand</title>
   </head>
+ 
+<div id="background" style="background-image: url(./components/images/bg\ 1.svg);">
+ <div id="layout-head">
+  <header>
+    <div href="../index.html" id="titulo">
 
-  <!-- DIV da imagem de background do Header -->
+        <!-- Logo -->
 
-  <div style="background-image: url(./components/images/bg\ 1.svg)">
-    <div class="container-layout">
-      <header>
-        <div href="../index.html" id="title">
-
-          <!-- Logo -->
-
-          <img
-            style="padding-right: 10px"
-            src="./components/images/logo-white.svg"
-          />
-          <h1>PetsLand</h1>
-        </div>
-
-        <!-- Navegação -->
-
-        <ul>
-          <a href="#" class="header-nav"><li>Home</li></a>
-          <a href="#" class="header-nav"><li>ONGs</li></a>
-          <a href="#" class="header-nav"><li>Sobre a PetLand</li></a>
-          <a href="#" class="header-nav"><li>Redes sociais</li></a>
-          <a href="#" class="botao-transparente">Adotar o meu Pet agora</a>
-        </ul>
-      </header>
-
-      <!-- Carrossel -->
-      
-      <div id="carrossel" class="container-carrossel">
-        <aside style="max-width: 800px">
-          <h2 style="color: white">Adote facilmente na PetLand</h2>
-          <ul style="padding: 20px 15px 0px 0px">
-            <a href="./pages/home.html" class="botao-branco" style="margin-right: 50px"
-              >Adotar o meu Pet agora</a
-            >
-            <a href="#" class="botao-transparente">Mais sobre a PetLand</a>
-          </ul>
-        </aside>
-
-        <!-- Carrossel-Imagens -->
-
-        <article
-          style="
-            max-width: 400px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          "
-        >
-          <img src="./components/images/luan-teste.svg" />
-          <img
-            style="margin-left: 150px"
-            src="./components/images/luan-teste.svg"
-          />
-          <img
-            style="margin-right: 200px"
-            src="./components/images/luan-teste.svg"
-          />
-        </article>
+        <img
+          style="padding-right: 10px"
+          src="./components/images/logo-white.svg"
+        />
+        <h1>PetsLand</h1>
       </div>
+
+      <div id="navegacao">
+        <ul>
+            <a href="#" class="header-nav"><li>Home</li></a>
+            <a href="#" class="header-nav"><li>ONGs</li></a>
+            <a href="#" class="header-nav"><li>Sobre a PetLand</li></a>
+            <a href="#" class="header-nav"><li>Redes sociais</li></a>
+            <a href="#" class="botao-transparente">Adotar o meu Pet agora</a>
+          </ul>
+      </div>
+  </header>
+
+  <div id="container1">
+    <div id="carrossel-esquerda">
+        <h2 style="font-size:64px;">Adote fácilmente na<br>PetLand</h2>
+        <button href="./pages/home.html" class="botao-branco" style="margin-right: 50px;">Adotar o meu Pet agora</button>
+        <button class="botao-transparente">Mais sobre a PetLand</button>
+    </div>
+    <div id="carrossel-direita">
+        <img class="carrossel-imagem" src="components/images/luan-teste.svg">
+        <img class="carrossel-imagem" src="components/images/luan-teste.svg">
+        <img class="carrossel-imagem" src="components/images/luan-teste.svg">
     </div>
   </div>
+ </div>
+</div>
 
-  <body>
-    <main class="container-layout">
-
-      <!-- ONGs -->
-
-      <div id="ongs">
-        <h1 style="margin-bottom: 60px">
-          ONGs parceiras ao PetLand, juntos fazemos diferença.
-        </h1>
-
-        <figure>
-          <img class="image-ong" src="./components/images/logo_ong.svg" />
-          <img class="image-ong" src="./components/images/logo_ong.svg" />
-          <img class="image-ong" src="./components/images/logo_ong.svg" />
-          <img class="image-ong" src="./components/images/logo_ong.svg" />
-        </figure>
-      </div>
-
-      <!-- Sobre -->
-
-      <div id="sobre">
-        <h1>
-          Encontre seu Pet perfeito, nessa plataforma super simples de usar
-        </h1>
-        <h5 class="texto-cinza">
-          Nossa plataforma, utiliza algumas informações suas, para dar um match
-          num Pet mais apropriado a sua realidade.
-        </h5>
-        <div id="sobre-article">
-          <article>
-            <div class="container-sobre">
-              <img
-                style="max-width: 270px"
-                src="./components/images/sobre-ong1.svg"
-              />
-            </div>
-            <div class="container-sobre2">
-              <h3>Centenas de Pets cadastrados</h3>
-              <a class="sobre-link" href="#">Conhecer os amigos</a>
-            </div>
-          </article>
-
-          <article>
-            <div class="container-sobre">
-              <img
-                style="max-width: 270px"
-                src="./components/images/sobre-ong2.svg"
-              />
-            </div>
-            <div class="container-sobre2">
-              <h3>IA usado no seu match</h3>
-              <a class="sobre-link" href="#"
-                >Conheça sobre o algoritmo da PetLand</a
-              >
-            </div>
-          </article>
-
-          <article>
-            <div class="container-sobre">
-              <img
-                style="max-width: 270px"
-                src="./components/images/sobre-ong3.svg"
-              />
-            </div>
-            <div class="container-sobre2">
-              <h3>Mais de 10 ONGs parceiras</h3>
-              <a class="sobre-link" href="#">Conheça mais sobre as ONGs</a>
-            </div>
-          </article>
+<body>
+<div id="layout-body">
+    <div id="ongs">
+        <h1>ONGs parceiras ao PetLand, juntos fazemos<br>diferença</h1>
+        <div id="logos-ongs">
+            <img src="components/images/logo_ong.svg">
+            <img src="components/images/logo_ong.svg">
+            <img src="components/images/logo_ong.svg">
+            <img src="components/images/logo_ong.svg">
+            <img src="components/images/logo_ong.svg">
+            <img src="components/images/logo_ong.svg">
         </div>
-      </div>
+    </div>
 
-      <!-- Contatos -->
+    <div id="sobre">
+        <h1>Encontre seu Pet perfeito, nessa plataforma super<br>simples de usar</h1>
+        <h3>Nossa plataforma, utiliza algumas informações suas, para dar um<br>match em um Pet mais apropriado a sua realidade</h3>
+        <div id="layout-sobre">
+            <div id="container-sobre">
+                <div class="container-border1">
+                    <img src="components/images/sobre-ong1.svg">
+                </div>
+                <div class="container-border2">
+                    <h2>Centena de Pets<br>cadastrados</h2>
+                    <a href="#">Conhecer amigos</a>
+                </div>
+            </div>
+            <div id="container-sobre">
+                <div class="container-border1">
+                    <img src="components/images/sobre-ong2.svg">
+                </div>
+                <div class="container-border2">
+                    <h2>IA usada no seu match</h2>
+                    <a href="#" style="margin-top: 12%">Conheça sobre o algoritmo da PetLand</a>
+                </div>
+            </div>
+            <div id="container-sobre3">
+                <div class="container-border1">
+                    <img src="components/images/sobre-ong1.svg">
+                </div>
+                <div class="container-border2">
+                    <h2>Mais de 10 ONGs<br>parceiras</h2>
+                    <a href="#">Conheça mais sobre as ONGs</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <div id="contatos">
-        <aside id="left">
-          <h1>Ficou com alguma dúvida</h1>
-          <h1>sobre a PetLand?</h1>
-        </aside>
-        <aside id="right">
-          <h1>Ou gostaria de conhecer ainda mais</h1>
-          <h1>sobre nós?</h1>
-        </aside>
+    <div id="contato">
+        <div id="row-contato">
+            <h1>Ficou com alguma dúvida<br>sobre a PetLand?</h1>
+            <h1>Ou gostaria de conhecer<br>ainda mais sobre nós?</h1>
+        </div>
+        <div id="column-contato">
+            <div class="input-descricao">
+                <!--Input-->
+              </div>
+                <div id="logos-contato">
+                <img style="padding-right: 50px;" src="components/images/gmail.svg">
+                <img style="padding-right: 50px;" src="components/images/whatsapp.svg">
+                <img style="padding-right: 50px;" src="components/images/facebook.svg">
+                <img style="padding-right: 50px;" src="components/images/instagram.svg">
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div id="banner">
+    <div id="banner-layout">
+        <div id="banner-conteudo">
+        <h1>Encontre seu Pet perfeito<br>hoje!</h1>
+        <h2>Mude a vide de um amiguinho</h2>
+        <button href="./pages/home.html" class="botao-branco">Adotar o meu Pet agora</button>
+        </div>
+        <div id="banner-dog">
+            <img src="components/images/footer-dog1.svg">
+        </div>
+    </div>
 
-        <nav id="contatos-nav">
-          <a class="contatos-img" href="#"
-            ><img src="./components/images/gmail.svg"
-          /></a>
-          <a class="contatos-img" href="#"
-            ><img src="./components/images/whatsapp.svg"
-          /></a>
-          <a class="contatos-img" href="#"
-            ><img src="./components/images/facebook.svg"
-          /></a>
-          <a class="contatos-img" href="#"
-            ><img src="./components/images/instagram.svg"
-          /></a>
-        </nav>
-      </div>
-    </main>
+</div>
+</body>
 
-    <!-- Footer -->
-
-    <picture style="position: absolute; left: 32%">
-      <img style="width: 500px" src="./components/images/footer-dog1.svg" />
-    </picture>
-    <footer>
-      <picture style="position: absolute; left: 72.7%">
-        <img
-          style="width: 354.5px; height: 380px"
-          src="./components/images/footer-dog2.svg"
-        />
-      </picture>
-      <aside class="container-layout">
-        <h1
-          style="
-            font-size: 40px;
-            margin: 0px;
-            line-height: 50px;
-            max-width: 500px;
-            position: absolute;
-          "
-        >
-          Encontre seu Pet perfeito hoje!
-        </h1>
-
-        <h5 class="texto-cinza" style="margin: 120px 0px 45px 0px">
-          Mude a vida de um amiguinho
-        </h5>
-
-        <a href="#" class="botao-branco" style="font-family: interregular"
-          >Adotar o meu Pet agora</a
-        >
-      </aside>
-    </footer>
-  </body>
-</html>
+<footer>
+    <h1>© 2023 PetLand Todos os direitos reservados</h1>
+</footer>
