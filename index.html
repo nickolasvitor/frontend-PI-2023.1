@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style/style.css" rel="stylesheet" />
     <link href="./style/fonts.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>PetsLand - Home</title>
   </head>
 
@@ -17,7 +13,7 @@
 
   <div style="background-image: url(./components/images/bg\ 1.svg)">
     <div class="container-layout">
-      <header >
+      <header>
         <div href="../index.html" id="title">
 
           <!-- Logo -->
@@ -29,70 +25,33 @@
           <h1>PetsLand</h1>
         </div>
 
-        
-        <nav class="button-list-pc">
+        <!-- Navegação -->
+
+        <ul>
           <a href="#" class="header-nav"><li>Home</li></a>
           <a href="#" class="header-nav"><li>ONGs</li></a>
           <a href="#" class="header-nav"><li>Sobre a PetLand</li></a>
           <a href="#" class="header-nav"><li>Redes sociais</li></a>
-          <a href="#" class="botao-transparente upper-button-trans">Adotar o meu Pet agora</a>
-        </nav>
-
-        <!-- Navegação -->
-        
-
-
+          <a href="#" class="botao-transparente">Adotar o meu Pet agora</a>
+        </ul>
       </header>
-
-      <nav class="navbar navbar-inverse navbar-static-top button-list-mobile" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about.php">ONGs</a></li>
-              <li><a href="#portfolio">Sobre a PetLand</a></li>
-              <li><a href="#">Redes sociais</a></li>
-             
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       <!-- Carrossel -->
       
       <div id="carrossel" class="container-carrossel">
         <aside style="max-width: 800px">
           <h2 style="color: white">Adote facilmente na PetLand</h2>
-          <div class="button-list-pc" style="padding: 20px 15px 0px 0px">
-            <a href="./pages/home.html" class="botao-branco" style="margin-right: 50px;"
+          <ul style="padding: 20px 15px 0px 0px">
+            <a href="./pages/home.html" class="botao-branco" style="margin-right: 50px"
               >Adotar o meu Pet agora</a
             >
             <a href="#" class="botao-transparente">Mais sobre a PetLand</a>
-          </div>
-          <div class="button-list-mobile" style="padding: 20px 15px 0px 0px;">
-            <a href="./pages/home.html" class="botao-branco" style="margin-right: 50px;margin-bottom: 16px;"
-              >Adotar o meu Pet agora</a
-            >
-            
-          </div>
-          <div class="button-list-mobile" style="padding: 20px 15px 0px 0px;  margin-top: 16px;">
-            <a href="#" class="botao-transparente" style="width: 176px;">Mais sobre a PetLand</a>
-          </div>
+          </ul>
         </aside>
 
         <!-- Carrossel-Imagens -->
 
-        <article class="luan-face"
+        <article
           style="
             max-width: 400px;
             display: flex;
@@ -188,41 +147,42 @@
 
       <!-- Contatos -->
 
-      <div class="contatos" id="contatos">
-        <div class="left" id="left">
+      <div id="contatos">
+        <aside id="left">
           <h1>Ficou com alguma dúvida</h1>
           <h1>sobre a PetLand?</h1>
-        </div>
-        <div class="left" id="right">
+        </aside>
+        <aside id="right">
           <h1>Ou gostaria de conhecer ainda mais</h1>
           <h1>sobre nós?</h1>
-        </div>
+        </aside>
+
+        <nav id="contatos-nav">
+          <a class="contatos-img" href="#"
+            ><img src="./components/images/gmail.svg"
+          /></a>
+          <a class="contatos-img" href="#"
+            ><img src="./components/images/whatsapp.svg"
+          /></a>
+          <a class="contatos-img" href="#"
+            ><img src="./components/images/facebook.svg"
+          /></a>
+          <a class="contatos-img" href="#"
+            ><img src="./components/images/instagram.svg"
+          /></a>
+        </nav>
       </div>
-      <nav id="contatos-nav">
-        <a class="contatos-img" href="#"
-          ><img src="./components/images/gmail.svg"
-        /></a>
-        <a class="contatos-img" href="#"
-          ><img src="./components/images/whatsapp.svg"
-        /></a>
-        <a class="contatos-img" href="#"
-          ><img src="./components/images/facebook.svg"
-        /></a>
-        <a class="contatos-img" href="#"
-          ><img src="./components/images/instagram.svg"
-        /></a>
-      </nav>
     </main>
 
     <!-- Footer -->
 
     <picture style="position: absolute; left: 32%">
-      <img class="dog1" src="./components/images/footer-dog1.svg" />
+      <img style="width: 500px" src="./components/images/footer-dog1.svg" />
     </picture>
     <footer>
       <picture style="position: absolute; left: 72.7%">
-        <img class="dog2"
-         
+        <img
+          style="width: 354.5px; height: 380px"
           src="./components/images/footer-dog2.svg"
         />
       </picture>
