@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style/style-match.css" rel="stylesheet" />
+    <link href="../style/fonts.css" rel="stylesheet" />
+    <script src="../script/match.js"></script>
+    <title>PetsLand - Match</title>
+  </head>
+
+  <header style="display: flex; flex-direction: row; align-items: center">
+    <div id="logo-voltar" style="padding-top: 6px; padding-right: 30px">
+      <a href="../pages/home.html"
+        ><img src="../components/images/arrow-left.svg"
+      /></a>
+    </div>
+
+    <div id="logo-title">
+      <img
+        style="padding-right: 10px"
+        src="../components/images/logo-white.svg"
+      />
+      <h1 style="margin: 0px;">PetsLand</h1>
+    </div>
+  </header>
+
+  <body>
+    <h2
+      style="font-size: 70px; margin-top: 90px; margin-bottom: 90px"
+      class="texto-branco"
+    >
+      Encontramos duas opções:
+    </h2>
+
+    <div id="container">
+      <div id="container-animal">
+        <img src="../components/images/dog-match1.svg" />
+        <div id="conteudo-animal">
+          <h1 class="texto-cinza-match">Nome</h1>
+          <h2 class="texto-preto-match">Maggie</h2>
+          <div id="colunas">
+            <aside id="esquerda">
+              <h1 class="texto-cinza-match">Peso</h1>
+              <h2 class="texto-preto-match">15kg</h2>
+              <h1 class="texto-cinza-match">Especie</h1>
+              <h2 class="texto-preto-match">Cão</h2>
+              <h1 class="texto-cinza-match">Sexo</h1>
+              <h2 class="texto-preto-match">Macho</h2>
+            </aside>
+            <aside id="direita">
+              <h1 class="texto-cinza-match">Idade</h1>
+              <h2 class="texto-preto-match">6 anos</h2>
+              <h1 class="texto-cinza-match">Porte</h1>
+              <h2 class="texto-preto-match">Médio</h2>
+              <h1 class="texto-cinza-match">Raça</h1>
+              <h2 class="texto-preto-match">Vira-lata</h2>
+            </aside>
+          </div>
+          <h1 class="texto-cinza-match">Distância até você</h1>
+          <h2 class="texto-preto-match">2 Km</h2>
+          <div id="button">
+            <a href="../pages/adocao.html" class="botao-preto"
+              >Adotar</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="container-animal">
+        <img src="../components/images/dog-match2.svg" />
+        <div id="conteudo-animal">
+          <h1 class="texto-cinza-match">Nome</h1>
+          <h2 class="texto-preto-match">Alana</h2>
+          <div id="colunas">
+            <aside id="esquerda">
+              <h1 class="texto-cinza-match">Peso</h1>
+              <h2 class="texto-preto-match">4kg</h2>
+              <h1 class="texto-cinza-match">Especie</h1>
+              <h2 class="texto-preto-match">Cão</h2>
+              <h1 class="texto-cinza-match">Sexo</h1>
+              <h2 class="texto-preto-match">Femea</h2>
+            </aside>
+            <aside id="direita">
+              <h1 class="texto-cinza-match">Idade</h1>
+              <h2 class="texto-preto-match">1 ano</h2>
+              <h1 class="texto-cinza-match">Porte</h1>
+              <h2 class="texto-preto-match">Pequeno</h2>
+              <h1 class="texto-cinza-match">Raça</h1>
+              <h2 class="texto-preto-match">Vira-lata</h2>
+            </aside>
+          </div>
+          <h1 class="texto-cinza-match">Distância até você</h1>
+          <h2 class="texto-preto-match">5 Km</h2>
+          <div id="button">
+            <a href="../pages/adocao.html" class="botao-preto"
+              >Adotar</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Pop-up-->
+    <div>
+      <div id="alternative-button">
+        <a href="#" onclick="openPopup()" class="botao-branco"
+          >Encontrar outros Pets</a
+        >
+      </div>
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <div style="margin-left: 10px">
+            <h1>
+              Nossos algoritmos recomenda que esses dois pets são os mais
+              adequados a você...
+            </h1>
+            <h1 style="margin-top: 50px">
+              Deseja continuar com um novo match?
+            </h1>
+
+            <div style="display: flex; justify-content: end; margin-top: 50px">
+              <a
+                onclick="closePopup()"
+                href="#"
+                class="botao-branco-alt"
+                style="margin-right: 25px"
+                >Voltar</a
+              >
+              <a onclick="closePopup()" href="#" class="botao-preto">Sim</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

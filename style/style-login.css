@@ -1,0 +1,67 @@
+body {
+  background-image: url(../components/images/bg\ 1.svg);
+  margin: 0 auto;
+  padding: 15px 15px 0px 15px;
+  font-family: outfitregular;
+  max-width: 1600px;
+}
+
+.centralizar-div {
+  margin: 10% 30%;
+}
+
+#container {
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 40px 100px 75px 100px;
+}
+
+#logo-title {
+  display: flex;
+  color: white;
+}
+
+
+.input > label {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-login {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  font-family: outfitregular;
+}
+
+.input-login:focus {
+  border: 1px solid white;
+  box-shadow: none;
+}
+
+.texto-branco {
+  color: white;
+}
+
+.botao-branco {
+  background: #ffffff;
+  border-radius: 5.5px;
+  padding: 12px 30px 12px 30px;
+  border-color: #ffffff;
+  color: black;
+  text-decoration-line: none;
+  display: flex;
+  width: 75%;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 24px;
+}

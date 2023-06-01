@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'interblack';
+    src: url('../components/fonts/inter/inter/Inter-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interbold';
+    src: url('../components/fonts/inter/Inter-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interextrabold';
+    src: url('../components/fonts/inter/Inter-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interextralight';
+    src: url('../components/fonts/inter/Inter-ExtraLight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interlight';
+    src: url('../components/fonts/inter/Inter-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intermedium';
+    src: url('../components/fonts/inter/Inter-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interregular';
+    src: url('../components/fonts/inter/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intersemibold';
+    src: url('../components/fonts/inter/Inter-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interthin';
+    src: url('../components/fonts/inter/Inter-Thin.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitblack';
+    src: url('../components/fonts/outfit/outfit/Outfit-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitbold';
+    src: url('../components/fonts/outfit/Outfit-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitextrabold';
+    src: url('../components/fonts/outfit/Outfit-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitextralight';
+    src: url('../components/fonts/outfit/Outfit-ExtraLight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitlight';
+    src: url('../components/fonts/outfit/Outfit-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitmedium';
+    src: url('../components/fonts/outfit/Outfit-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitregular';
+    src: url('../components/fonts/outfit/Outfit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitsemibold';
+    src: url('../components/fonts/outfit/Outfit-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitthin';
+    src: url('../components/fonts/outfit/Outfit-Thin.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

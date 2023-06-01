@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style/style-adocao.css" rel="stylesheet" />
+    <link href="../style/fonts.css" rel="stylesheet" />
+    <script src="../script/adocao.js"></script>
+    <title>PetsLand - Adoção</title>
+  </head>
+
+  <header style="display: flex; flex-direction: row; align-items: center">
+    <div id="logo-voltar" style="padding-top: 6px; padding-right: 30px">
+      <a href="../pages/match.html"
+        ><img src="../components/images/arrow-left.svg"
+      /></a>
+    </div>
+
+    <div id="logo-title">
+      <img
+        style="padding-right: 10px"
+        src="../components/images/logo-white.svg"
+      />
+      <h1 style="margin: 0px;">PetsLand</h1>
+    </div>
+  </header>
+
+  <body>
+    <div id="container">
+      <div id="container-animal">
+        <img src="../components/images/dog-match1.svg" />
+        <div id="conteudo-animal">
+          <h1 class="texto-cinza-match">Nome</h1>
+          <h2 class="texto-preto-match">Maggie</h2>
+          <div id="colunas">
+            <aside id="esquerda">
+              <h1 class="texto-cinza-match">Peso</h1>
+              <h2 class="texto-preto-match">15kg</h2>
+              <h1 class="texto-cinza-match">Especie</h1>
+              <h2 class="texto-preto-match">Cão</h2>
+              <h1 class="texto-cinza-match">Sexo</h1>
+              <h2 class="texto-preto-match">Macho</h2>
+            </aside>
+            <aside id="direita">
+              <h1 class="texto-cinza-match">Idade</h1>
+              <h2 class="texto-preto-match">6 anos</h2>
+              <h1 class="texto-cinza-match">Porte</h1>
+              <h2 class="texto-preto-match">Médio</h2>
+              <h1 class="texto-cinza-match">Raça</h1>
+              <h2 class="texto-preto-match">Vira-lata</h2>
+            </aside>
+          </div>
+          <h1 class="texto-cinza-match">Distância até você</h1>
+          <h2 class="texto-preto-match">2 Km</h2>
+          </div>
+        </div>
+
+        <div>
+        <div id="texto" class="texto-branco">
+          <h1 style="font-size: 60px; margin-bottom: 10px;">Endereço</h1>
+          <h2 style="font-size:30px; margin-left: 20px;">Rua Diário de Pernambuco, 123 50010300, Recife</h2>
+          <h1 style="font-size: 60px; margin-bottom: 10px; margin-top: 60px;">ONG:</h1>
+          <h2 style="font-size:30px; margin-left: 20px;">Cão Sem Dono</h2>
+
+        <div id="buttons" style="display: flex; justify-content: center; margin-top: 50px;">
+          <a href="#" onclick="mostrarInputData()" class="botao-branco" style="margin-right: 145px;"
+          >Ir buscar no local</a
+        >
+        <a href="#" onclick="mostrarInputData()" class="botao-branco"
+        >Nós levamos até você</a
+      >
+        </div>
+       </div>   
+      </div>
+    </div>
+    <div style="display: flex; justify-content: end;">
+      <input type="date" id="inputData" style=" margin-top: 40px; margin-right: 402px;" class="input-login">
+    </div>
+  </body>

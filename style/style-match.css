@@ -1,0 +1,152 @@
+body {
+    background-image: url(../components/images/bg\ 1.svg);
+    margin: 0 auto;
+    padding: 15px 15px 0px 15px;
+    font-family: outfitregular;
+    max-width: 1600px;
+  }
+
+  #logo-title {
+    display: flex;
+    color: white;
+  }
+
+  .texto-branco {
+    color: white;
+  }
+
+  .botao-branco {
+    background: #ffffff;
+    border-radius: 5.5px;
+    padding: 12px 30px 12px 30px;
+    border-color: #ffffff;
+    color: black;
+    text-decoration-line: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .botao-branco-alt {
+    background: #ffffff;
+    border-radius: 5.5px;
+    padding: 12px 30px 12px 30px;
+    border: 1px solid black;
+    color: black;
+    text-decoration-line: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    width: 28px;
+    margin-top: 10px;
+  }
+  
+  .botao-preto {
+    background: black;
+    border-radius: 5.5px;
+    padding: 12px 30px 12px 30px;
+    border: 1px solid black;
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    width: 28px;
+    margin-top: 10px;
+  }
+
+  #button{
+    display: flex;
+    justify-content: end;
+  }
+
+  #alternative-button{
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+    margin-right: 117px
+  }
+
+  #container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#container-animal{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 50px;
+    margin-right: 90px;
+}
+
+#conteudo-animal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.texto-cinza-match{
+    font-size: 15px;
+    color: #7f7f7f;
+}
+
+.texto-preto-match{
+    font-size: 20px;
+    color: black;
+    padding-top: 6px;
+}
+
+h1{
+    margin: 0px;
+    margin-top: 20px;
+}
+
+h2{
+    margin: 0px;
+}
+
+#colunas{
+    display: flex;
+    flex-direction: row;
+}
+
+#esquerda{
+    margin-right: 70px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #000;
+  }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style/style-cadastro.css" rel="stylesheet" />
+    <link href="../style/fonts.css" rel="stylesheet" />
+    <title>PetsLand - Cadastro</title>
+  </head>
+  <header style="display: flex; flex-direction: row; align-items: center">
+    <div id="logo-voltar" style="padding-top: 6px; padding-right: 30px">
+      <a href="../pages/login.html"
+        ><img src="../components/images/arrow-left.svg"
+      /></a>
+    </div>
+
+    <div id="logo-title">
+      <img
+        style="padding-right: 10px"
+        src="../components/images/logo-white.svg"
+      />
+      <h1>PetsLand</h1>
+    </div>
+  </header>
+  <body>
+    <div id="container">
+      <aside id="esquerda">
+        <div class="input">
+          <label for="nome" class="texto-branco">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            class="input-login"
+            placeholder="Digite seu nome"
+          />
+        </div>
+        <div class="input">
+            <label for="email" class="texto-branco">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              class="input-login"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+         <div id="input-duplo">
+          <div class="input-duplo" style="margin-right: 20px;">
+            <label for="senha" class="texto-branco">Senha</label>
+            <input
+              type="password"
+              id="senha"
+              class="input-login"
+              placeholder="Digite sua senha"
+            />
+          </div>
+          <div class="input-duplo">
+            <label for="confirmar-senha" class="texto-branco">Confirmar a senha</label>
+            <input
+              type="password"
+              id="confirmar-senha"
+              class="input-login"
+              placeholder="Confirme sua senha"
+            />
+          </div>
+        </div>
+          <div class="input">
+            <label for="data" class="texto-branco">Data de nascimento</label>
+            <input
+              type="date"
+              id="data"
+              class="input-login"
+              placeholder="dd/MM/AAAA"
+            />
+          </div>
+          <div class="input">
+            <label for="rua" class="texto-branco">Rua</label>
+            <input
+              type="text"
+              id="rua"
+              class="input-login"
+              placeholder="Digite o endereço da sua rua"
+            />
+          </div>
+          <div id="input-duplo">
+            <div class="input-duplo" style="margin-right: 20px;">
+              <label for="numero" class="texto-branco">Número</label>
+              <input
+                type="text"
+                id="numero"
+                class="input-login"
+                placeholder="Digite o número"
+              />
+            </div>
+            <div class="input-duplo">
+              <label for="complemento" class="texto-branco">Complemento</label>
+              <input
+                type="text"
+                id="complemento"
+                class="input-login"
+                placeholder="Digite o complemento"
+              />
+            </div>
+      </aside>
+      <aside id="centro">
+      </aside>
+      <aside id="direita">
+        <div class="texto-branco" style="font-size: 25px; margin-top: 35px; margin-bottom: 15px;">Casa / Apartamento</div>
+        <div id="radio-button">
+            <div class="radio-input">
+            <label for="op1" class="texto-branco">Apartamento</label>
+            <input
+              type="radio"
+              id="op1"
+              name="opcoes1"
+              class="input-login"
+            />
+            <div class="radio-input">
+                <label for="op2" class="texto-branco">Casa</label>
+                <input
+                  type="radio"
+                  id="op2"
+                  name="opcoes1"
+                  class="input-login"
+                />
+          </div>
+        </div>
+    </div>
+          <div class="input">
+              <label for="tamanho-casa" class="texto-branco">Tamanho em m² da residencia</label>
+              <input
+                type="number"
+                id="tamanho-casa"
+                class="input-login"
+                placeholder="Ex: 145m²"
+              />
+            </div>
+            <div class="texto-branco" style="font-size: 25px; margin-top: 35px; margin-bottom: 15px;">Você pratica exercicios fisicos?</div>
+            <div id="radio-button">
+                <div class="radio-input">
+                <label for="op1" class="texto-branco">Não</label>
+                <input
+                  type="radio"
+                  id="op1"
+                  name="opcoes1"
+                  class="input-login"
+                />
+                <div class="radio-input">
+                    <label for="op2" class="texto-branco">Sim</label>
+                    <input
+                      type="radio"
+                      id="op2"
+                      name="opcoes1"
+                      class="input-login"
+                    />
+              </div>
+            </div>
+        </div>
+              <div class="input">
+                  <label for="familia" class="texto-branco">Quantas pessoas moram na sua casa?</label>
+                  <input
+                    type="number"
+                    id="familia"
+                    class="input-login"
+                    placeholder="Ex: 6"
+                  />
+                </div>
+
+                <div class="texto-branco" style="font-size: 25px; margin-top: 35px; margin-bottom: 15px;">Sua preferencia</div>
+                <div id="radio-button">
+                    <div class="radio-input">
+                    <label for="op1" class="texto-branco">Cachorro e gato</label>
+                    <input
+                      type="radio"
+                      id="op1"
+                      name="opcoes1"
+                      class="input-login"
+                    />
+                    <div class="radio-input">
+                        <label for="op2" class="texto-branco">Gato</label>
+                        <input
+                          type="radio"
+                          id="op2"
+                          name="opcoes1"
+                          class="input-login"
+                        />
+                  </div>
+                  <div class="radio-input">
+                    <label for="op2" class="texto-branco">Cachorro</label>
+                    <input
+                      type="radio"
+                      id="op2"
+                      name="opcoes1"
+                      class="input-login"
+                    />
+              </div>
+                </div>
+            </div>
+
+                <div style="display: flex; justify-content: flex-end; margin-top: 87px;">
+                <a href="../pages/match.html" class="botao-branco"
+                >Encontrar Pet</a>
+            </div>
+      </aside>
+    </div>
+  </body>
+</html>
