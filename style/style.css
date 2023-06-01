@@ -194,6 +194,7 @@ h2 {
 
 #contatos > #left {
   font-family: 'Outfit', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 17px;
   padding-top: 1px;
@@ -202,6 +203,7 @@ h2 {
 
 #contatos > #right {
   font-family: 'Outfit', sans-serif;
+  font-weight: 700;
   position: absolute;
   margin-left: 750px;
   font-size: 16px;
@@ -226,7 +228,7 @@ footer {
   background-color: #111827;
   color: white;
   font-family: 'Outfit', sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 /* Componentes */
