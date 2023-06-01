@@ -1,5 +1,7 @@
 /* Layout */
 
+@charset "UTF-8";
+
 .container-layout {
   
   margin: 0 auto;
@@ -9,7 +11,7 @@
 body {
   background-color: white;
   color: black;
-  font-family: outfitregular;
+  font-family: 'Outfit', sans-serif;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -75,7 +77,8 @@ h1 {
 h2 {
   font-size: 56px;
   line-height: 10px;
-  font-family: outfitmedium;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
 }
 
 /* Ongs */
@@ -190,7 +193,7 @@ h2 {
 }
 
 #contatos > #left {
-  font-family: outfitbold;
+  font-family: 'Outfit', sans-serif;
   font-size: 16px;
   line-height: 17px;
   padding-top: 1px;
@@ -198,7 +201,7 @@ h2 {
 }
 
 #contatos > #right {
-  font-family: outfitbold;
+  font-family: 'Outfit', sans-serif;
   position: absolute;
   margin-left: 750px;
   font-size: 16px;
@@ -222,7 +225,8 @@ footer {
   padding: 150px 0px;
   background-color: #111827;
   color: white;
-  font-family: outfitbold;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
 }
 
 /* Componentes */
